@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hope yes</title>
+    <link rel="stylesheet" href="./sendoff.css">
+    <style>
+        audio{
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <audio controls autoplay loop>
+        <source src="images/mymusic7.mp3" type="audio/mp3"> 
+    </audio>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Swetha,</strong>
+                        <p>enti rep going ga inka,literal ga chala miss avuta swetha
+                            ninnu chala connect ayyav...malli inka eppudu kalisina 
+                            eee time never comeback..hope django manachi ga discuss 
+                            chesam...dani sangati pakkana peditey chala sarlu adiga like we can go out 
+                            ani but <strong>"chudamle"</strong>is your answer...swetha one last time adugutunna rep class complete ayyaka
+                            podama?feel comfortable to say <strong><span id="no">"No"</span></strong>but say <strong><span id="yes">"Yes"</span> </strong> Lokesh....
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
